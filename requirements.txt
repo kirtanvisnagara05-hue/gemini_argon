@@ -1,0 +1,10 @@
+# Matched OpenAI, LangChain, and HTTP client versions.
+openai==2.54.0
+httpx==0.28.1
+python-dotenv==1.0.1
+langsmith
+Pillow==13.0.0
+langchain-core==1.6.4
+langchain-openai==1.6.3
+opencv-python==4.10.0.84
+ultralytics==8.4.118
