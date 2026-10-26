@@ -1,0 +1,51 @@
+{
+    "task_name": "Upgrade Residential Building and Inspect City Journal Objectives",
+    "timestamp_range": "05:07 - 05:36",
+    "when_to_do_it": {
+        "trigger_condition": "When a residential building displays a ready hard hat and the City Journal clipboard icon appears over Town Hall.",
+        "strategic_reasoning": "Upgrading the home increases population to 208, and inspecting the City Journal ('My Sweet Town') reveals the exact production and zoning tasks needed to earn the first bonus chest.",
+        "preconditions": [
+            "1 Nail in storage",
+            "Town Hall constructed"
+        ],
+        "placement_rule": "Apply the Nails to the ready residential building, then open the Town Hall clipboard."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "yellow hard hat on the left residential building",
+            "briefing": "open the upgrade requirements."
+        },
+        {
+            "action": "drag",
+            "who": "Nails icon (1/1)",
+            "briefing": "drag the Nails onto the residential building to upgrade it."
+        },
+        {
+            "action": "click",
+            "who": "green 'Show me' button on Eva's City Journal prompt",
+            "briefing": "highlight the Town Hall clipboard."
+        },
+        {
+            "action": "click",
+            "who": "clipboard icon above Town Hall",
+            "briefing": "open the City Journal menu."
+        },
+        {
+            "action": "click",
+            "who": "green 'Open' button on 'My Sweet Town'",
+            "briefing": "open the first chapter of the City Journal."
+        },
+        {
+            "action": "click",
+            "who": "green 'Show more' button",
+            "briefing": "view the three checklist tasks (Produce 10 Metal, Produce 2 Nails, Create 3 Residential Zones)."
+        },
+        {
+            "action": "click",
+            "who": "blue 'X' close button",
+            "briefing": "close the City Journal popup."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

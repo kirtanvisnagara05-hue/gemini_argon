@@ -1,0 +1,50 @@
+{
+    "task_name": "Extend Lower Road Grid, Claim 'My Sweet Town' Journal Reward, and Queue Metal",
+    "timestamp_range": "16:47 - 17:21",
+    "when_to_do_it": {
+        "trigger_condition": "When expanding the southern road blocks and when the 'Complete!' banner appears at the bottom of the screen after collecting the 10th Metal for 'My Sweet Town'.",
+        "strategic_reasoning": "Claiming completed City Journal chapters awards a surprise reward chest containing 400 Simoleons to fund further city expansion.",
+        "preconditions": [
+            "All 3 objectives in 'My Sweet Town' completed (10/10 Metal, 2/2 Nails, 3/3 Residential Zones)"
+        ],
+        "placement_rule": "Draw the connecting horizontal road across the southern block, then claim the journal chest."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Roads icon on the right menu",
+            "briefing": "open the road drawing tool."
+        },
+        {
+            "action": "drag",
+            "who": "road cursor",
+            "briefing": "draw a horizontal road across the lower section of the city to connect the western and eastern roads, then click the green checkmark and close the road menu."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal on the northern Small Factories",
+            "briefing": "collect the finished Metal to complete the journal task."
+        },
+        {
+            "action": "click",
+            "who": "City Journal icon / 'Complete!' banner",
+            "briefing": "open the 'My Sweet Town' journal popup."
+        },
+        {
+            "action": "click",
+            "who": "green 'Claim' button",
+            "briefing": "claim the reward chest."
+        },
+        {
+            "action": "click",
+            "who": "blue reward chest",
+            "briefing": "open the chest and collect 400 Simoleons."
+        },
+        {
+            "action": "click",
+            "who": "northern Small Factories",
+            "briefing": "drag Metal into the empty production slots."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

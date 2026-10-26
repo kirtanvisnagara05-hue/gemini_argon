@@ -1,0 +1,31 @@
+{
+    "task_name": "Build Reflecting Pool Park Next to Skyscraper Cluster for Additional Population Boost",
+    "timestamp_range": "38:35 - 38:50",
+    "when_to_do_it": {
+        "trigger_condition": "When you have sufficient Simoleons (23,677) and want to stack a second park's coverage over your high-density residential cluster.",
+        "strategic_reasoning": "Placing a Reflecting Pool Park (6,000 Simoleons, larger coverage area and 10% boost) on the lower road in front of the left-side skyscraper and apartment buildings overlaps the high-density cluster and adds +51 immediate population (bringing total park boost to +148).",
+        "preconditions": [
+            "6,000 Simoleons available",
+            "Available road frontage adjacent to the residential cluster"
+        ],
+        "placement_rule": "Drag the Reflecting Pool Park onto the road directly below the left residential cluster so its green coverage zone overlaps the skyscraper and surrounding apartments."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Services icon -> Parks icon",
+            "briefing": "open the Parks specialization catalog."
+        },
+        {
+            "action": "drag",
+            "who": "Reflecting Pool Park card (6,000 Simoleons)",
+            "briefing": "drag the Reflecting Pool Park onto the lower road in front of the left-side residential cluster where the green highlight covers the tall buildings (+51 population)."
+        },
+        {
+            "action": "click",
+            "who": "green checkmark",
+            "briefing": "confirm placement of the Reflecting Pool Park."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

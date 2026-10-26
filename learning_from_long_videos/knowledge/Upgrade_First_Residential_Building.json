@@ -1,0 +1,26 @@
+{
+    "task_name": "Upgrade First Residential Building",
+    "timestamp_range": "03:09 - 03:30",
+    "when_to_do_it": {
+        "trigger_condition": "When a yellow hard hat with a green checkmark appears above an existing house, indicating all required materials (Metal 7/1) are in storage.",
+        "strategic_reasoning": "Upgrading existing homes increases population density (+52 Sims) without consuming additional land or road frontage, while awarding Simoleons (+882) and XP (+11).",
+        "preconditions": [
+            "Yellow hard hat with green checkmark visible on residential building",
+            "Required Metal (1) available in storage"
+        ],
+        "placement_rule": "Drag the required material directly onto the target residential building."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "yellow hard hat with green checkmark on the right residential house",
+            "briefing": "view the upgrade requirements for the home."
+        },
+        {
+            "action": "drag",
+            "who": "Metal icon (7/1)",
+            "briefing": "drag Metal onto the residential building to upgrade it."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

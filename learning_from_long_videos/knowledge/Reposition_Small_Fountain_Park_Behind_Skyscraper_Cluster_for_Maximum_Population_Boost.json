@@ -1,0 +1,31 @@
+{
+    "task_name": "Reposition Small Fountain Park Behind Skyscraper Cluster for Maximum Population Boost",
+    "timestamp_range": "33:21 - 33:48",
+    "when_to_do_it": {
+        "trigger_condition": "After the skyscraper ('El Dorado Tower') finishes construction (+439 base population) and displays a green thought bubble saying 'We're stressed out! We need parks!'.",
+        "strategic_reasoning": "Moving the Small Fountain Park from the low-density right side of the street to the road directly behind the new skyscraper and adjacent apartment towers covers the highest-density buildings in the city, nearly tripling the park's boost to +94 population.",
+        "preconditions": [
+            "High-density skyscraper and apartment cluster built",
+            "Existing Small Fountain Park available to move for free"
+        ],
+        "placement_rule": "Drag the Small Fountain Park onto the parallel road directly behind the skyscraper cluster so its green coverage area overlaps all four tall residential buildings."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "green speech bubble on El Dorado Tower",
+            "briefing": "read the citizen feedback requesting parks near the skyscraper."
+        },
+        {
+            "action": "drag",
+            "who": "Small Fountain Park (tap and hold to pick up)",
+            "briefing": "drag the Small Fountain Park to the road directly behind El Dorado Tower and the adjacent apartments (+94 population boost)."
+        },
+        {
+            "action": "click",
+            "who": "green checkmark",
+            "briefing": "confirm the new park placement."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

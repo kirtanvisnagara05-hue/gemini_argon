@@ -1,0 +1,39 @@
+{
+    "task_name": "Place and Construct Second Residential Zone Using Nails",
+    "steps": [
+        {
+            "action": "click",
+            "who": "Residential Buildings icon with '1' badge (bottom-right menu)",
+            "briefing": "Open the residential zoning menu."
+        },
+        {
+            "action": "drag",
+            "who": "Residential Zone card",
+            "briefing": "Drag the Residential Zone onto an empty lot adjacent to the road next to the first residential house or Building Supplies Store."
+        },
+        {
+            "action": "click",
+            "who": "green checkmark",
+            "briefing": "Confirm placement of the second Residential Zone."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat bubble above the new Residential Zone",
+            "briefing": "Open the material requirements popup for the newly placed zone."
+        },
+        {
+            "action": "drag",
+            "who": "Nails icon (1/1)",
+            "briefing": "Drag the Nails onto the Residential Zone to complete construction of the second house."
+        }
+    ],
+    "when_to_do_it": {
+        "trigger_condition": "After collecting Nails when the Residential Buildings icon displays a '1' badge.",
+        "strategic_reasoning": "Constructing a second Residential Zone doubles city population to 104, earns Simoleons (+882) and XP, and triggers utility service tutorials.",
+        "preconditions": [
+            "At least 1 Nail in City Storage",
+            "Available road space next to existing buildings"
+        ],
+        "placement_rule": "Place the zone next to the first residential home along the road so future services and parks can cover both homes simultaneously."
+    }
+}

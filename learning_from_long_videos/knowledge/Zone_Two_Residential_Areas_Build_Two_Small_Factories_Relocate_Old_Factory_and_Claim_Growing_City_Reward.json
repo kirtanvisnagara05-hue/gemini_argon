@@ -1,0 +1,71 @@
+{
+    "task_name": "Zone Two Residential Areas, Build Two Small Factories, Relocate Old Factory, and Claim 'Growing City' Reward",
+    "timestamp_range": "17:37 - 18:42",
+    "when_to_do_it": {
+        "trigger_condition": "When 'Growing City' journal needs 1 more Residential Zone, the Industrial menu shows unlocked Small Factories, and the first Small Factory is still sitting on the residential street.",
+        "strategic_reasoning": "Placing the new Residential Zones completes the 'Growing City' journal (500 Simoleons reward). Building the 3rd and 4th Small Factories on the northern road and relocating the 1st Small Factory there consolidates all industrial pollution in one distant sector.",
+        "preconditions": [
+            "Available Residential Zone slots (3)",
+            "Available Small Factory slots in Industrial menu"
+        ],
+        "placement_rule": "Place Residential Zones along the main residential road near the park; place and move all Small Factories to the far northern industrial road."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Residential Buildings icon on the right menu",
+            "briefing": "open the residential zoning menu."
+        },
+        {
+            "action": "drag",
+            "who": "Residential Zone card (twice)",
+            "briefing": "place two new Residential Zones along the main residential street and click the green checkmark for each."
+        },
+        {
+            "action": "click",
+            "who": "Industrial Buildings icon on the right menu",
+            "briefing": "open the industrial catalog."
+        },
+        {
+            "action": "drag",
+            "who": "Small Factory card",
+            "briefing": "place a new Small Factory next to the Coal Power Plant on the northern road and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "floating Wood on the old Small Factory on the residential street",
+            "briefing": "collect the finished Wood so the factory can be moved."
+        },
+        {
+            "action": "drag",
+            "who": "old Small Factory (tap and hold to pick up)",
+            "briefing": "move the old Small Factory from the residential street to the northern industrial road and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "Industrial Buildings icon",
+            "briefing": "drag one more Small Factory onto the northern industrial road and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal on the northern factories",
+            "briefing": "collect the finished Metal."
+        },
+        {
+            "action": "click",
+            "who": "City Journal icon on the left",
+            "briefing": "open the completed 'Growing City' journal."
+        },
+        {
+            "action": "click",
+            "who": "green 'Claim' button and blue chest",
+            "briefing": "claim and open the reward chest for 500 Simoleons."
+        },
+        {
+            "action": "click",
+            "who": "northern Small Factories",
+            "briefing": "drag Metal into the empty production slots."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

@@ -1,0 +1,41 @@
+{
+    "task_name": "Upgrade Residential Buildings to Reach City Level 3",
+    "timestamp_range": "12:14 - 13:42",
+    "when_to_do_it": {
+        "trigger_condition": "When residential zones display yellow hard hats with green checkmarks and sufficient Metal and Nails are collected.",
+        "strategic_reasoning": "Completing these residential upgrades pushes city population to 570 and levels the city up to Level 3, unlocking the Parks specialization, Planks production, and an additional Small Factory.",
+        "preconditions": [
+            "Metal and Nails available in City Storage",
+            "Ready hard hat indicators on residential buildings"
+        ],
+        "placement_rule": "Drag required Metal and Nails onto each ready residential building."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "yellow hard hat on the lower-left residential building",
+            "briefing": "open its upgrade requirements."
+        },
+        {
+            "action": "drag",
+            "who": "Metal icon (5/4)",
+            "briefing": "drag Metal onto the building to start upgrading."
+        },
+        {
+            "action": "click",
+            "who": "floating Nails on Building Supplies Store and floating Metal on northern Small Factories",
+            "briefing": "collect the finished Nails and Metal, then re-queue Metal in the factories and Nails in the store."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the rightmost Residential Zone",
+            "briefing": "open its construction requirements."
+        },
+        {
+            "action": "drag",
+            "who": "Metal (1/1) and Nails (1/1) icon",
+            "briefing": "drag the materials onto the zone to construct it and reach City Level 3."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

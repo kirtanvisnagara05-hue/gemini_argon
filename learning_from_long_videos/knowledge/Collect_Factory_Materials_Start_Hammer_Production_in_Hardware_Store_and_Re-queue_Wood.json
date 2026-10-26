@@ -1,0 +1,36 @@
+{
+    "task_name": "Collect Factory Materials, Start Hammer Production in Hardware Store, and Re-queue Wood",
+    "timestamp_range": "39:00 - 39:30",
+    "when_to_do_it": {
+        "trigger_condition": "When Wood and Metal finish at the factories and the Hardware Store is idle.",
+        "strategic_reasoning": "Hammers take 14 minutes to craft and require 1 Metal and 1 Wood; starting Hammer production early ensures Hammers are ready when residential buildings request them.",
+        "preconditions": [
+            "Hardware Store built",
+            "At least 1 Metal and 1 Wood collected from factories"
+        ],
+        "placement_rule": "Collect Wood and Metal from the northern factories, drag the Hammer recipe into the Hardware Store, and refill the factories with Wood."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "floating Wood and Metal on the northern Small Factories",
+            "briefing": "collect the finished raw materials."
+        },
+        {
+            "action": "click",
+            "who": "Hardware Store building",
+            "briefing": "open the Hardware Store crafting interface."
+        },
+        {
+            "action": "drag",
+            "who": "Hammer icon",
+            "briefing": "drag the Hammer recipe into the production slot."
+        },
+        {
+            "action": "click",
+            "who": "northern Small Factories",
+            "briefing": "drag Wood logs into the empty production slots."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

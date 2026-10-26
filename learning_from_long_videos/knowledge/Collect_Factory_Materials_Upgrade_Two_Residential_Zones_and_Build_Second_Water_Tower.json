@@ -1,0 +1,36 @@
+{
+    "task_name": "Collect Factory Materials, Upgrade Two Residential Zones, and Build Second Water Tower",
+    "timestamp_range": "29:04 - 29:49",
+    "when_to_do_it": {
+        "trigger_condition": "When factories finish producing Metal and Wood, two residential zones have ready hard hats, and a red water droplet alert appears as Water Demand (10) exceeds Capacity (9).",
+        "strategic_reasoning": "Upgrading the two residential zones increases population to 1,418, which pushes water demand past the single Water Tower's capacity of 9. Building a second Basic Water Tower immediately raises capacity to 18 and prevents Sim unhappiness.",
+        "preconditions": [
+            "Finished Metal and Wood on factories",
+            "6,000 Simoleons available for a second Basic Water Tower"
+        ],
+        "placement_rule": "Place the second Basic Water Tower next to Town Hall on the lower road to keep the main residential street clear for homes and parks."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "floating Metal and Wood on the northern Small Factories",
+            "briefing": "collect all finished materials and re-queue Metal and Wood."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hats on two ready Residential Zones",
+            "briefing": "drag Wood (2/2) & Metal (17/2) onto the first zone and Wood (2/2) onto the second zone to upgrade them."
+        },
+        {
+            "action": "click",
+            "who": "Services icon -> Water icon",
+            "briefing": "open the Water service catalog when the red water shortage alert appears."
+        },
+        {
+            "action": "drag",
+            "who": "Basic Water Tower card (6,000 Simoleons)",
+            "briefing": "drag the Water Tower onto the lower road directly beside Town Hall and click the green checkmark."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

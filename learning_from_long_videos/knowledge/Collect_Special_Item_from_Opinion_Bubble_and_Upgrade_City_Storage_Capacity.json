@@ -1,0 +1,46 @@
+{
+    "task_name": "Collect Special Item from Opinion Bubble and Upgrade City Storage Capacity",
+    "timestamp_range": "36:34 - 37:31",
+    "when_to_do_it": {
+        "trigger_condition": "When popping a blue citizen thought bubble rewards a Storage Camera (1/1) and you want to expand City Storage capacity from 40 to 45.",
+        "strategic_reasoning": "Increasing City Storage capacity prevents 'Storage Full' bottlenecks and permanently adds +5 slots (from 40 to 45) by combining the free Storage Camera with two SimCash-purchased storage parts.",
+        "preconditions": [
+            "City Storage building placed",
+            "1 Storage Camera collected from a citizen bubble and 36 SimCash available for the remaining 2 parts"
+        ],
+        "placement_rule": "Open City Storage from the top-left bar or building, click 'Increase Capacity', purchase the missing Lock and Bars, and confirm."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "blue water-droplet thought bubble on the residential building",
+            "briefing": "pop the citizen opinion bubble."
+        },
+        {
+            "action": "click",
+            "who": "floating Storage Camera icon",
+            "briefing": "collect the special Storage Camera item into storage."
+        },
+        {
+            "action": "click",
+            "who": "City Storage icon on the left HUD (or City Storage building)",
+            "briefing": "open the City Storage inventory window."
+        },
+        {
+            "action": "click",
+            "who": "green 'Increase Capacity' button",
+            "briefing": "open the Upgrade City Storage requirements."
+        },
+        {
+            "action": "click",
+            "who": "two yellow '18 SimCash' buttons next to Storage Lock and Storage Bars",
+            "briefing": "purchase the two missing special items."
+        },
+        {
+            "action": "click",
+            "who": "green 'Confirm' button",
+            "briefing": "complete the upgrade to increase City Storage capacity from 40 to 45."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

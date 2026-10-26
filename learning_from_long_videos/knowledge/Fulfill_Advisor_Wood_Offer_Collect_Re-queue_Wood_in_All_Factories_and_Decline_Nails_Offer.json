@@ -1,0 +1,46 @@
+{
+    "task_name": "Fulfill Advisor Wood Offer, Collect & Re-queue Wood in All Factories, and Decline Nails Offer",
+    "timestamp_range": "43:55 - 44:30",
+    "when_to_do_it": {
+        "trigger_condition": "Upon returning to your city when Wood logs are ready across the northern Small Factories and advisor Simoleon offers appear.",
+        "strategic_reasoning": "Selling 1 Wood for 22 Simoleons when 8+ Wood logs are ready to collect is profitable, whereas declining the advisor offer to sell your only Nail (1/1 for 67 Simoleons) preserves scarce crafted Nails needed for residential upgrades.",
+        "preconditions": [
+            "Finished Wood floating above the Small Factories",
+            "Active Simoleon offer bubbles"
+        ],
+        "placement_rule": "Accept the Wood trade offer, collect all finished Wood logs, refill the factories with Wood, and decline the Nails trade offer."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Simoleon offer bubble near the northern factories",
+            "briefing": "open the advisor offer to buy 1 Wood for 22 Simoleons."
+        },
+        {
+            "action": "click",
+            "who": "green 'I'll Do It!' button",
+            "briefing": "sell 1 Wood for 22 Simoleons."
+        },
+        {
+            "action": "click",
+            "who": "floating Wood logs on the northern Small Factories",
+            "briefing": "collect all finished Wood logs into City Storage."
+        },
+        {
+            "action": "click",
+            "who": "Small Factories",
+            "briefing": "drag Wood logs into all empty factory production slots."
+        },
+        {
+            "action": "click",
+            "who": "new Simoleon offer bubble on the factory",
+            "briefing": "view the offer requesting 1/1 Nails for 67 Simoleons."
+        },
+        {
+            "action": "click",
+            "who": "blue 'No, thanks' button",
+            "briefing": "decline the offer so the Nails remain available for residential upgrades."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

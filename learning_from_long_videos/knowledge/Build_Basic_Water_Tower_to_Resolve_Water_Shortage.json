@@ -1,0 +1,35 @@
+{
+    "task_name": "Build Power Plant to Resolve Power Shortage",
+    "steps": [
+        {
+            "action": "click",
+            "who": "Services icon (white classical building with columns in the bottom-left slot of the bottom-right menu grid, directly below the Road bulldozer icon)",
+            "briefing": "Click the Services icon on the bottom row of the bottom-right menu panel to open the Services & Specializations menu."
+        },
+        {
+            "action": "click",
+            "who": "Power icon (red or yellow lightning bolt icon in the top-left of the Services menu)",
+            "briefing": "Click the Power lightning bolt icon in the Services menu popup to open the Power utility buildings catalog."
+        },
+        {
+            "action": "drag",
+            "who": "Wind Power Plant card or Coal Power Plant card in the bottom Power catalog",
+            "briefing": "Drag the Wind Power Plant card (or Coal Power Plant card) from the bottom catalog onto an empty spot directly adjacent to the road connected to the residential homes so that a green placement footprint and green checkmark appear."
+        },
+        {
+            "action": "click",
+            "who": "green checkmark button",
+            "briefing": "Click the floating green checkmark button beside the placed Power Plant on the map to confirm construction."
+        }
+    ],
+    "when_to_do_it": {
+        "trigger_condition": "When a citizen complains 'It's scary in the dark! Get our lights turned on, PLEASE!' or red lightning bolt power alerts appear over residential homes and the Services icon shows a red '!' badge.",
+        "strategic_reasoning": "Electricity (Power) is a mandatory utility service; without power, citizen happiness drops sharply (down to 60%) and Sims will abandon their homes. Constructing a Power Plant along the connected road network immediately restores power and happiness.",
+        "preconditions": [
+            "At least 4,500 Simoleons available (for Coal Power Plant) or 6,000 Simoleons (for Basic Wind Power Plant)",
+            "Power service unlocked in the Services menu",
+            "Available road frontage connected to the residential homes"
+        ],
+        "placement_rule": "Place on an empty lot directly adjacent to a road connected to the residential grid; if placing a polluting Coal Power Plant, place it toward the far end of the road away from residential houses."
+    }
+}

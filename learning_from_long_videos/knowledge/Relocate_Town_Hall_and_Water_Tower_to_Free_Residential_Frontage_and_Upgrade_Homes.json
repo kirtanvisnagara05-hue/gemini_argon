@@ -1,0 +1,51 @@
+{
+    "task_name": "Relocate Town Hall and Water Tower to Free Residential Frontage and Upgrade Homes",
+    "timestamp_range": "14:49 - 16:05",
+    "when_to_do_it": {
+        "trigger_condition": "When non-boosting buildings (Town Hall, Basic Water Tower) occupy prime road frontage inside the park's coverage area, and Wood/Metal are ready for residential upgrades.",
+        "strategic_reasoning": "Moving Town Hall and the Water Tower to secondary roads frees up space around the Small Fountain Park so additional residential buildings can be clustered inside the park's population-boosting radius.",
+        "preconditions": [
+            "Secondary roads built and connected",
+            "Wood and Metal ready at factories"
+        ],
+        "placement_rule": "Move Town Hall to the lower road and the Basic Water Tower to the northern industrial road, then upgrade the residential buildings near the park."
+    },
+    "steps": [
+        {
+            "action": "drag",
+            "who": "Town Hall (tap and hold to pick up)",
+            "briefing": "move Town Hall to the lower-right road intersection and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "floating Wood on the first Small Factory",
+            "briefing": "collect finished Wood and drag Wood back into its production slot."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the house next to Building Supplies Store",
+            "briefing": "drag Wood (2/1) onto the house to upgrade it."
+        },
+        {
+            "action": "drag",
+            "who": "Small Fountain Park (tap and hold to adjust)",
+            "briefing": "shift the Small Fountain Park slightly left to cover the upgrading apartment building and click the green checkmark."
+        },
+        {
+            "action": "drag",
+            "who": "Basic Water Tower (tap and hold to pick up)",
+            "briefing": "move the Basic Water Tower to the northern industrial road next to the Small Factories and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal on the northern Small Factories",
+            "briefing": "collect finished Metal and re-queue Metal in both factories."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the lower residential house",
+            "briefing": "drag Wood (1/1) and Metal (4/1) onto the house to upgrade it."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

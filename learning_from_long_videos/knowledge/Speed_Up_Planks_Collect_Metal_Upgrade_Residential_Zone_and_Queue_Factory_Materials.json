@@ -1,0 +1,36 @@
+{
+    "task_name": "Speed Up Planks, Collect Metal, Upgrade Residential Zone, and Queue Factory Materials",
+    "timestamp_range": "35:37 - 36:23",
+    "when_to_do_it": {
+        "trigger_condition": "When a residential zone requires 2 Planks to upgrade and the Building Supplies Store is crafting Planks.",
+        "strategic_reasoning": "Completing the Planks production and upgrading the residential zone adds +52 base population and keeps residential progression moving while factories switch back to a mix of Wood and Metal.",
+        "preconditions": [
+            "Wood and Metal available for crafting",
+            "SimCash available for optional speed-up"
+        ],
+        "placement_rule": "Collect Planks from the Building Supplies Store, apply them to the residential zone, and refill all 5 Small Factories."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Building Supplies Store",
+            "briefing": "speed up Nails with 2 SimCash, collect finished Planks, and drag Planks into the production slot."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal on the northern Small Factories",
+            "briefing": "collect finished Metal from the factories."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the left Residential Zone",
+            "briefing": "drag Planks (2/2) onto the zone to upgrade it."
+        },
+        {
+            "action": "click",
+            "who": "northern Small Factories",
+            "briefing": "drag Wood and Metal into the empty factory slots."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

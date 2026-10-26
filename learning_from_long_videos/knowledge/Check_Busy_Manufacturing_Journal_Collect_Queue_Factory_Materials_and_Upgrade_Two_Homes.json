@@ -1,0 +1,36 @@
+{
+    "task_name": "Check 'Busy Manufacturing' Journal, Collect & Queue Factory Materials, and Upgrade Two Homes",
+    "timestamp_range": "21:11 - 22:25",
+    "when_to_do_it": {
+        "trigger_condition": "When all 5 Small Factories finish producing Metal/Wood and residential buildings have ready hard hats.",
+        "strategic_reasoning": "Checking 'Busy Manufacturing' confirms that only 'Reach City Level 4' remains to claim the next chest, motivating residential upgrades using the freshly collected Metal and Wood.",
+        "preconditions": [
+            "Finished Metal and Wood on the 5 Small Factories",
+            "Ready hard hats on residential zones"
+        ],
+        "placement_rule": "Collect all factory output, re-queue Metal and Wood, and apply materials to the two ready residential zones."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "City Journal icon on the bottom-left",
+            "briefing": "open 'Busy Manufacturing' and click 'Show more' to check progress, then close."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal icons across the northern Small Factories",
+            "briefing": "collect all finished Metal and re-queue Metal in the first four factories and Wood in the fifth factory."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the lower-left residential house",
+            "briefing": "drag Metal (20/1) and Wood (2/1) onto the house to upgrade it."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the lower-right Residential Zone",
+            "briefing": "drag Wood (1/1) and Nails (1/1) onto the zone to construct it."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

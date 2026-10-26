@@ -1,0 +1,36 @@
+{
+    "task_name": "Collect Factory Output, Re-queue Wood, and Visit Daniel's City While Waiting on Timers",
+    "timestamp_range": "41:20 - 43:55",
+    "when_to_do_it": {
+        "trigger_condition": "When factory timers finish and commercial stores are busy crafting long-duration items (Planks 24m, Hammer 13m).",
+        "strategic_reasoning": "Collecting finished Wood and Metal and re-queuing Wood keeps raw material production active while visiting Daniel's City allows inspecting high-level city layouts and checking if his Trade Depot has refreshed.",
+        "preconditions": [
+            "Finished Wood and Metal on factories",
+            "Free space in City Storage (28/45)"
+        ],
+        "placement_rule": "Collect and re-queue at the northern factories, then use the Friends menu to visit Daniel's City and return home."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "floating Wood and Metal on the northern Small Factories",
+            "briefing": "collect the finished materials and drag Wood into the empty slots."
+        },
+        {
+            "action": "click",
+            "who": "Friends icon in the bottom-left corner",
+            "briefing": "open the Friends list."
+        },
+        {
+            "action": "click",
+            "who": "Daniel's City card",
+            "briefing": "travel to Daniel's City and explore his city layout."
+        },
+        {
+            "action": "click",
+            "who": "blue Home icon in the top-left corner",
+            "briefing": "return to your home city."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

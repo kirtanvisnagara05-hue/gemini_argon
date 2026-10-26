@@ -1,0 +1,32 @@
+{
+    "task_name": "Build Small Fountain Park Next to Residential Cluster for Population Boost",
+    "timestamp_range": "13:44 - 14:33",
+    "when_to_do_it": {
+        "trigger_condition": "Immediately upon reaching City Level 3 when the Parks specialization unlocks and Advisor Eva prompts to place a park.",
+        "strategic_reasoning": "Parks provide a percentage population boost to all residential buildings within their green coverage area and increase Sim happiness. After previewing SimCash parks, the player selects Small Fountain Park (4,000 Simoleons) and places it centrally among the homes for an immediate +23 population boost.",
+        "preconditions": [
+            "City Level 3+ (Parks specialization unlocked)",
+            "4,000 Simoleons available",
+            "Clustered residential buildings along a road"
+        ],
+        "placement_rule": "Drag the Small Fountain Park onto the road amidst the densest residential cluster so its green influence radius covers the maximum number of homes."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "green 'Show me' button on Eva's Parks prompt (or Services -> Parks)",
+            "briefing": "open the Parks specialization catalog."
+        },
+        {
+            "action": "drag",
+            "who": "Small Fountain Park card (4,000 Simoleons)",
+            "briefing": "drag the Small Fountain Park onto the main residential road between the houses and apartment buildings where the green coverage highlight overlaps the surrounding homes (+23 population)."
+        },
+        {
+            "action": "click",
+            "who": "green checkmark",
+            "briefing": "confirm placement of the Small Fountain Park."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

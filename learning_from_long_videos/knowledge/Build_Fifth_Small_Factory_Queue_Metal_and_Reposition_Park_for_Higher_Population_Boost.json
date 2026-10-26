@@ -1,0 +1,36 @@
+{
+    "task_name": "Build Fifth Small Factory, Queue Metal, and Reposition Park for Higher Population Boost",
+    "timestamp_range": "19:54 - 20:29",
+    "when_to_do_it": {
+        "trigger_condition": "When the 5th Small Factory is available in the Industrial menu and the newly upgraded high-rise apartment building finishes construction.",
+        "strategic_reasoning": "Adding the 5th Small Factory maximizes early-game raw material capacity (10 simultaneous slots). Repositioning the Small Fountain Park closer to the new high-rise apartment increases its population boost from +23 to +31.",
+        "preconditions": [
+            "1 Small Factory available in Industrial menu",
+            "High-rise residential building constructed"
+        ],
+        "placement_rule": "Place the 5th Small Factory in the northern industrial row; move the Small Fountain Park adjacent to the high-rise apartment so its green highlight covers the highest-density homes."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Industrial Buildings icon on the right menu",
+            "briefing": "open the industrial catalog."
+        },
+        {
+            "action": "drag",
+            "who": "Small Factory card",
+            "briefing": "drag the 5th Small Factory into the gap next to the Coal Power Plant on the northern road and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal icons on the northern factories",
+            "briefing": "collect the finished Metal and drag Metal into the empty factory slots."
+        },
+        {
+            "action": "drag",
+            "who": "Small Fountain Park (tap and hold to pick up)",
+            "briefing": "move the park one lot to the right so it sits directly across from the tall apartment building (+31 population boost) and click the green checkmark."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

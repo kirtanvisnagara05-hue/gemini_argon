@@ -1,0 +1,41 @@
+{
+    "task_name": "Cluster High-Rise Residential Buildings Around Park and Place New Residential Zone",
+    "timestamp_range": "22:52 - 23:35",
+    "when_to_do_it": {
+        "trigger_condition": "When a residential upgrade completes into a mid-rise condo outside the park's optimal coverage and you want to maximize the park's percentage population bonus.",
+        "strategic_reasoning": "Because parks provide a percentage boost to every residential building in their green zone, clustering the highest-population apartment buildings together around the Small Fountain Park increases the park's bonus to +67 population.",
+        "preconditions": [
+            "Multiple upgraded mid-rise/high-rise residential buildings",
+            "1 Residential Zone available in the right menu"
+        ],
+        "placement_rule": "Relocate the tall residential buildings onto adjacent road lots and position the Small Fountain Park so its green zone overlaps all of them."
+    },
+    "steps": [
+        {
+            "action": "drag",
+            "who": "newly upgraded Bennett Condos (tap and hold to pick up)",
+            "briefing": "move the condo to the upper side of the residential street next to the other buildings and click the green checkmark."
+        },
+        {
+            "action": "drag",
+            "who": "Small Fountain Park (tap and hold to pick up)",
+            "briefing": "move the park slightly right and click the green checkmark."
+        },
+        {
+            "action": "drag",
+            "who": "tall Napper Tenement building (tap and hold to pick up)",
+            "briefing": "move the tall apartment building directly next to Bennett Condos on the left side of the street (+353 population) and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "Residential Buildings icon on the right menu",
+            "briefing": "drag the available Residential Zone onto the right end of the street and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal on the northern Small Factories",
+            "briefing": "collect finished Metal and re-queue Metal across the factories."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

@@ -1,0 +1,42 @@
+{
+    "task_name": "Place and Construct First Residential Zone",
+    "timestamp_range": "00:28 - 00:54",
+    "when_to_do_it": {
+        "trigger_condition": "Immediately after connecting the first road when the Residential Zone icon displays a '1' badge and the advisor prompts to build housing.",
+        "strategic_reasoning": "Building the first Residential Zone establishes initial population (52 Sims), generates starting Simoleons (+880) and XP (+10), and unlocks commercial crafting.",
+        "preconditions": [
+            "Road connected to the highway",
+            "Residential Zone available in the right-hand menu",
+            "Starting Metal available in storage (10/1)"
+        ],
+        "placement_rule": "Place the Residential Zone directly adjacent to the road inside the designated yellow tutorial boundary."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Residential Buildings icon on the right menu",
+            "briefing": "open the residential zoning menu."
+        },
+        {
+            "action": "drag",
+            "who": "Residential Zone card",
+            "briefing": "drag the Residential Zone onto the highlighted area beside the road."
+        },
+        {
+            "action": "click",
+            "who": "green checkmark",
+            "briefing": "confirm placement of the first Residential Zone."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat bubble above the Residential Zone",
+            "briefing": "open the construction material requirements for the zone."
+        },
+        {
+            "action": "drag",
+            "who": "Metal icon (10/1)",
+            "briefing": "drag the required Metal onto the Residential Zone to build the first house."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

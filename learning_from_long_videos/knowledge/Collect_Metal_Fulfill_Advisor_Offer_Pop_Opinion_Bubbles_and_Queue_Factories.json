@@ -1,0 +1,41 @@
+{
+    "task_name": "Collect Metal, Fulfill Advisor Offer, Pop Opinion Bubbles, and Queue Factories",
+    "timestamp_range": "37:35 - 38:15",
+    "when_to_do_it": {
+        "trigger_condition": "When factories have finished Metal, a Simoleon offer bubble appears on Town Hall, and blue opinion bubbles appear on homes.",
+        "strategic_reasoning": "Selling excess Metal (24 in storage) earns Simoleons while popping blue opinion bubbles maintains 99% happiness and provides chances for more free special items.",
+        "preconditions": [
+            "Finished Metal on factories",
+            "Active advisor offer on Town Hall"
+        ],
+        "placement_rule": "Collect Metal, accept the Town Hall trade offer, and refill empty factory slots with Wood and Metal."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "floating Metal on the northern Small Factories",
+            "briefing": "collect the finished Metal."
+        },
+        {
+            "action": "click",
+            "who": "Simoleon offer bubble on Town Hall",
+            "briefing": "open the advisor trade offer."
+        },
+        {
+            "action": "click",
+            "who": "green 'I'll Do It!' button",
+            "briefing": "sell 1 Metal for 12 Simoleons."
+        },
+        {
+            "action": "click",
+            "who": "blue opinion bubbles on residential buildings",
+            "briefing": "pop the thought bubbles to keep Sims happy."
+        },
+        {
+            "action": "click",
+            "who": "northern Small Factories",
+            "briefing": "drag Wood and Metal into the empty production slots."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

@@ -1,0 +1,46 @@
+{
+    "task_name": "Collect Nails, Start Planks Production, Upgrade Three Homes, and Zone Two More Residential Areas",
+    "timestamp_range": "18:43 - 19:45",
+    "when_to_do_it": {
+        "trigger_condition": "When Nails finish at the Building Supplies Store and three residential zones/buildings show ready green-checkmark hard hats.",
+        "strategic_reasoning": "Upgrading three residential buildings in succession rapidly boosts population from 695 to 978 (including the first high-density apartment tower) and frees up two more Residential Zone slots.",
+        "preconditions": [
+            "Wood, Metal, and Nails available in storage",
+            "Planks unlocked at Level 3"
+        ],
+        "placement_rule": "Queue Planks in the Building Supplies Store, upgrade the three ready homes, and place the two newly unlocked Residential Zones on the right end of the residential street."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "floating Nails on the Building Supplies Store",
+            "briefing": "collect the finished Nails."
+        },
+        {
+            "action": "click",
+            "who": "Building Supplies Store",
+            "briefing": "drag Planks into the empty production slot."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hats on three ready residential buildings/zones",
+            "briefing": "drag Wood (2/1) & Nails (1/1) onto the first zone, Wood (1/1) & Metal (9/1) onto the left house, and Metal (8/4) onto the tall apartment building to upgrade all three."
+        },
+        {
+            "action": "click",
+            "who": "floating Wood on the northern Small Factory",
+            "briefing": "collect the Wood and drag Wood back into both slots."
+        },
+        {
+            "action": "click",
+            "who": "Residential Buildings icon on the right menu",
+            "briefing": "drag two new Residential Zones onto the right side of the residential street and confirm each with the green checkmark."
+        },
+        {
+            "action": "drag",
+            "who": "third Residential Zone card",
+            "briefing": "place one more Residential Zone at the far right of the residential street and click the green checkmark."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

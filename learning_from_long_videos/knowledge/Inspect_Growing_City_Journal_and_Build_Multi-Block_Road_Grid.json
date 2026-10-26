@@ -1,0 +1,59 @@
+{
+    "task_name": "Build and Extend a Road Connected to the Existing Street",
+    "steps": [
+        {
+            "action": "click",
+            "who": "Industrial / Factories icon (top-right slot of the bottom-right menu panel with a '1' badge)",
+            "briefing": "If prompted by the tutorial to build a Factory first, click the Industrial icon in the top-right slot of the bottom-right menu panel."
+        },
+        {
+            "action": "drag",
+            "who": "Small Factory icon from the bottom construction bar onto open green grass directly adjacent to the existing horizontal road",
+            "briefing": "Drag the Small Factory from the bottom bar onto the open grass just north of the existing horizontal road between the two houses."
+        },
+        {
+            "action": "click",
+            "who": "floating green checkmark button above the placed Small Factory preview",
+            "briefing": "Click the floating green checkmark button to confirm placing the Small Factory."
+        },
+        {
+            "action": "click",
+            "who": "Small Factory building with the 'Z' sleeping icon above it on the north side of the horizontal road",
+            "briefing": "Click the newly placed Small Factory building (where the tutorial hand points) to open its production menu."
+        },
+        {
+            "action": "drag",
+            "who": "Metal icon (grey steel I-beam in the bottom-left production bar) onto the Small Factory building in the center of the screen",
+            "briefing": "Drag the Metal icon from the bottom production bar up onto the Small Factory to start forging Metal and clear the tutorial lock."
+        },
+        {
+            "action": "click",
+            "who": "Roads icon (top-left slot of the bottom-right menu panel, showing a grey road segment with yellow dashed lines)",
+            "briefing": "Click the Roads icon in the top-left corner of the bottom-right menu panel to open the road construction tool."
+        },
+        {
+            "action": "drag",
+            "who": "road drawing cursor from the eastern end of the existing horizontal road southward into the open green grass",
+            "briefing": "Drag from the eastern end of the existing horizontal road (around x=1380, y=505) downward/southward into the open green grass (around x=1380, y=750) to draw a new connected road segment."
+        },
+        {
+            "action": "click",
+            "who": "floating green checkmark button beside the drawn road preview",
+            "briefing": "Click the floating green checkmark button beside the drawn road preview to confirm and build the road segment."
+        },
+        {
+            "action": "click",
+            "who": "blue 'X' close button in the bottom-right corner",
+            "briefing": "Click the blue 'X' button in the bottom-right corner of the screen to exit road construction mode."
+        }
+    ],
+    "when_to_do_it": {
+        "trigger_condition": "When the player manually requests to build a road or when existing road frontage is full and additional connected road segments are needed to place new residential, commercial, industrial, or service buildings.",
+        "strategic_reasoning": "All buildings in SimCity BuildIt require direct connection to the highway via a continuous road network. Extending the road creates new buildable frontage for factories, utilities, and residential zones while allowing polluting buildings to be placed farther away from homes.",
+        "preconditions": [
+            "Roads icon available in the bottom-right menu panel (two-lane roads are free to construct)",
+            "Unobstructed land adjacent to the existing road network"
+        ],
+        "placement_rule": "Start dragging from an existing road segment (such as the eastern end of the main horizontal road) into open grass so the new road connects directly to the city's highway-linked road network."
+    }
+}

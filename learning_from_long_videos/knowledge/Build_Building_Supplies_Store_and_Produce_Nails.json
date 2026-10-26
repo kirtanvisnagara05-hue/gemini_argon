@@ -1,0 +1,52 @@
+{
+    "task_name": "Build Building Supplies Store and Produce Nails",
+    "timestamp_range": "00:59 - 01:25",
+    "when_to_do_it": {
+        "trigger_condition": "When the Commercial Buildings icon shows a '1' badge and residential construction requires manufactured materials like Nails.",
+        "strategic_reasoning": "The Building Supplies Store converts raw materials (Metal, Wood) into higher-tier construction items (Nails, Planks) required for building and upgrading homes.",
+        "preconditions": [
+            "100 Simoleons available",
+            "Metal in storage to craft Nails",
+            "Available road frontage"
+        ],
+        "placement_rule": "Place the commercial store adjacent to an existing road; commercial buildings do not emit pollution and can sit safely near residential zones."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Commercial Buildings icon on the right menu",
+            "briefing": "open the commercial buildings catalog."
+        },
+        {
+            "action": "drag",
+            "who": "Building Supplies Store card",
+            "briefing": "drag the store onto the road to the left of the residential house."
+        },
+        {
+            "action": "click",
+            "who": "green checkmark",
+            "briefing": "confirm placement of the Building Supplies Store."
+        },
+        {
+            "action": "click",
+            "who": "Building Supplies Store building",
+            "briefing": "open the crafting interface for the store."
+        },
+        {
+            "action": "drag",
+            "who": "Nails icon",
+            "briefing": "drag the Nails recipe onto the Building Supplies Store to begin production."
+        },
+        {
+            "action": "wait",
+            "who": "4s production timer",
+            "briefing": "wait for the Nails production timer to finish."
+        },
+        {
+            "action": "click",
+            "who": "floating Nails icon on the Building Supplies Store",
+            "briefing": "collect the finished Nails into City Storage."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

@@ -1,0 +1,41 @@
+{
+    "task_name": "Fulfill Advisor Metal Offer, Produce & Speed Up Nails, and Upgrade Two Residential Buildings",
+    "timestamp_range": "31:27 - 32:25",
+    "when_to_do_it": {
+        "trigger_condition": "When an advisor coin offer for surplus Metal appears, and residential upgrades (including a skyscraper upgrade) require Nails and Metal.",
+        "strategic_reasoning": "Selling surplus Metal (19 in storage) earns easy Simoleons, and speeding up 1 Nail with 2 SimCash allows immediate completion of a residential zone and a high-rise skyscraper upgrade (+439 population).",
+        "preconditions": [
+            "Surplus Metal in storage (19+)",
+            "2 SimCash available to finish Nails instantly"
+        ],
+        "placement_rule": "Queue 3 Nails in the Building Supplies Store, speed up the first Nail, and upgrade the right residential zone and the left high-rise apartment."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Simoleon offer bubble near the northern factories",
+            "briefing": "click 'I'll Do It!' to sell 4 Metal for 41 Simoleons."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal on the northern Small Factories",
+            "briefing": "collect finished Metal and re-queue Metal."
+        },
+        {
+            "action": "click",
+            "who": "Building Supplies Store",
+            "briefing": "drag Nails into all three production slots and click the 2 SimCash speed-up button to finish the first Nails immediately, then collect it."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the rightmost Residential Zone",
+            "briefing": "drag Metal (19/2) and Nails (2/2) onto the zone to upgrade it."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the tall left apartment building",
+            "briefing": "drag Metal (19/3) onto the building to upgrade it into a skyscraper."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

@@ -1,0 +1,36 @@
+{
+    "task_name": "Place New Residential Zone, Collect Nails, and Queue Factory Production",
+    "timestamp_range": "29:58 - 30:25",
+    "when_to_do_it": {
+        "trigger_condition": "When a new Residential Zone slot unlocks ('1' badge on Residential menu) and finished Nails appear above the Building Supplies Store.",
+        "strategic_reasoning": "Keeping all available Residential Zone slots placed on the map gives more hard-hat upgrade options and maximizes population growth.",
+        "preconditions": [
+            "1 Residential Zone available",
+            "Finished Nails on Building Supplies Store"
+        ],
+        "placement_rule": "Place the new Residential Zone in the open lot along the main residential street."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Residential Buildings icon on the right menu",
+            "briefing": "open the residential zoning menu."
+        },
+        {
+            "action": "drag",
+            "who": "Residential Zone card",
+            "briefing": "drag the zone into the gap on the residential street and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "floating Nails on the Building Supplies Store",
+            "briefing": "collect the finished Nails."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal on the northern Small Factories",
+            "briefing": "collect finished Metal and queue Wood and Metal in the empty factory slots."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

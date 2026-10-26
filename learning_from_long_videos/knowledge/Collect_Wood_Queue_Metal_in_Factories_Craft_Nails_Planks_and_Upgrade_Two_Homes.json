@@ -1,0 +1,51 @@
+{
+    "task_name": "Collect Wood, Queue Metal in Factories, Craft Nails & Planks, and Upgrade Two Homes",
+    "timestamp_range": "34:02 - 35:05",
+    "when_to_do_it": {
+        "trigger_condition": "When all 5 Small Factories have finished Wood logs floating above them and residential buildings need Nails and Wood to upgrade.",
+        "strategic_reasoning": "Collecting 10 Wood logs replenishes raw timber for Planks and residential upgrades while declining low-value advisor offers for scarce Wood/Planks preserves materials for high-XP building upgrades.",
+        "preconditions": [
+            "Finished Wood on Small Factories",
+            "Finished Nails on Building Supplies Store"
+        ],
+        "placement_rule": "Decline low-value Wood/Planks trade offers, queue Metal in all 5 factories, speed up Nails in the store, and upgrade the two ready residential buildings."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "floating Wood logs on the northern Small Factories",
+            "briefing": "collect all finished Wood."
+        },
+        {
+            "action": "click",
+            "who": "Simoleon offer bubble and blue 'No, thanks' button",
+            "briefing": "decline the low-value offer for Wood."
+        },
+        {
+            "action": "click",
+            "who": "all 5 Small Factories",
+            "briefing": "drag Metal into all 10 production slots."
+        },
+        {
+            "action": "click",
+            "who": "Building Supplies Store",
+            "briefing": "collect finished Nails, drag Nails and Planks into the queue, and speed up Nails using SimCash."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the far-left residential building",
+            "briefing": "drag Metal (16/2) and Nails (2/2) onto the building to upgrade it."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the middle residential building",
+            "briefing": "drag Wood (4/2) and Nails (14/2) onto the building to upgrade it."
+        },
+        {
+            "action": "click",
+            "who": "Simoleon offer bubble and blue 'No, thanks' button",
+            "briefing": "decline the advisor offer for Planks."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

@@ -1,0 +1,36 @@
+{
+    "task_name": "Resolve Full Material Storage by Expanding Shop Queue and Accepting Advisor Trade Offer",
+    "timestamp_range": "24:26 - 26:10",
+    "when_to_do_it": {
+        "trigger_condition": "When tapping finished factory materials triggers 'Material Storage is full! (30/30)' and you cannot collect finished Nails or Wood needed for upgrades.",
+        "strategic_reasoning": "When storage hits 30/30 with excess Metal (30 Metal), production halts. Unlocking an extra slot in the Building Supplies Store and accepting a Sim Advisor offer to sell 14 Metal for 79 Simoleons immediately frees 14 storage slots so Wood and Nails can be collected.",
+        "preconditions": [
+            "City Storage at 30/30 capacity",
+            "Simoleon trade offer bubble visible on a city building"
+        ],
+        "placement_rule": "Sell the overstocked raw material (Metal) via the yellow coin speech bubble."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Building Supplies Store",
+            "briefing": "open the store crafting view."
+        },
+        {
+            "action": "click",
+            "who": "yellow '+' slot button (4 SimCash)",
+            "briefing": "unlock a third production slot in the Building Supplies Store."
+        },
+        {
+            "action": "click",
+            "who": "yellow Simoleon offer bubble above the northern Small Factory",
+            "briefing": "open the neighbor mayor's purchase offer (28/14 Metal for 79 Simoleons)."
+        },
+        {
+            "action": "click",
+            "who": "green 'I'll Do It!' button",
+            "briefing": "sell 14 Metal to earn 79 Simoleons and free up 14 storage spaces."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

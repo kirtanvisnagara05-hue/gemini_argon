@@ -1,0 +1,51 @@
+{
+    "task_name": "Build Two Additional Small Factories on Distant Industrial Road and Produce Wood/Metal",
+    "timestamp_range": "10:18 - 11:18",
+    "when_to_do_it": {
+        "trigger_condition": "When the Industrial Buildings icon shows a '2' badge for newly unlocked Small Factories and Wood production is unlocked at Level 2.",
+        "strategic_reasoning": "Constructing the two new factories on the far northern road keeps their brown pollution radius completely away from the residential neighborhood while tripling raw material output.",
+        "preconditions": [
+            "2 Small Factory slots unlocked",
+            "Northern industrial road connected to the road network"
+        ],
+        "placement_rule": "Place both new Small Factories side-by-side at the far right end of the northernmost road, far from all residential zones."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Industrial Buildings icon on the right menu",
+            "briefing": "open the industrial buildings catalog."
+        },
+        {
+            "action": "drag",
+            "who": "Small Factory card (twice)",
+            "briefing": "drag two Small Factories onto the far northern road and click the green checkmark for each."
+        },
+        {
+            "action": "click",
+            "who": "each new Small Factory",
+            "briefing": "open their production menus and drag Metal into all cztery empty slots."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal on the original Small Factory",
+            "briefing": "collect the finished Metal."
+        },
+        {
+            "action": "click",
+            "who": "original Small Factory",
+            "briefing": "open its production menu and drag Wood logs into both slots."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the new Residential Zone",
+            "briefing": "drag Metal (3/2) onto the zone to construct the house."
+        },
+        {
+            "action": "click",
+            "who": "Building Supplies Store",
+            "briefing": "drag Nails into the production slot."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

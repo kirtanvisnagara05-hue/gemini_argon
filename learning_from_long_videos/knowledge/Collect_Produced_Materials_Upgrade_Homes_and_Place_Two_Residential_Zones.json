@@ -1,0 +1,61 @@
+{
+    "task_name": "Collect Produced Materials, Upgrade Homes, and Place Two Residential Zones",
+    "timestamp_range": "09:03 - 10:15",
+    "when_to_do_it": {
+        "trigger_condition": "After finishing the road layout when floating finished items appear over the factory and store, and residential zones have ready hard hats.",
+        "strategic_reasoning": "Collecting finished Nails and Metal allows immediate completion of pending residential upgrades (+102 population total) and frees production slots to keep working toward the 'My Sweet Town' journal goals.",
+        "preconditions": [
+            "Finished Metal on Small Factory and Nails on Building Supplies Store",
+            "Available Residential Zone slots (3)"
+        ],
+        "placement_rule": "Place new Residential Zones along the main residential street away from the industrial left corner."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "floating Metal on Small Factory and floating Nails on Building Supplies Store",
+            "briefing": "collect the finished materials."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the leftmost unbuilt Residential Zone",
+            "briefing": "open its construction requirements."
+        },
+        {
+            "action": "drag",
+            "who": "Nails icon (1/1)",
+            "briefing": "drag Nails onto the zone to start construction."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the upper-right residential house",
+            "briefing": "open its upgrade requirements."
+        },
+        {
+            "action": "drag",
+            "who": "Metal icon (4/3)",
+            "briefing": "drag Metal onto the house to upgrade it into a multi-story apartment."
+        },
+        {
+            "action": "click",
+            "who": "Residential Buildings icon on the right menu",
+            "briefing": "open the residential zoning menu."
+        },
+        {
+            "action": "drag",
+            "who": "Residential Zone card (twice)",
+            "briefing": "place two new Residential Zones to the right of the Water Tower along the main road, confirming each with the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "Small Factory building",
+            "briefing": "open the factory production slots and drag Metal into both slots."
+        },
+        {
+            "action": "click",
+            "who": "Building Supplies Store building",
+            "briefing": "open the store and drag Nails into the production queue."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

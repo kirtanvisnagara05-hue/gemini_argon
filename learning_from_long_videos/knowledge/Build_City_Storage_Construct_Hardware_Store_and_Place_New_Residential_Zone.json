@@ -1,0 +1,41 @@
+{
+    "task_name": "Build City Storage, Construct Hardware Store, and Place New Residential Zone",
+    "timestamp_range": "28:02 - 28:50",
+    "when_to_do_it": {
+        "trigger_condition": "At City Level 4 when Advisor Eva prompts to place the City Storage building and the Commercial Buildings icon shows a '1' badge for the Hardware Store.",
+        "strategic_reasoning": "Placing City Storage increases base storage capacity from 30 to 40 and allows future capacity upgrades. Building the Hardware Store enables crafting Hammers, which are required for Level 4+ residential upgrades.",
+        "preconditions": [
+            "City Level 4 reached",
+            "2,500 Simoleons available for Hardware Store"
+        ],
+        "placement_rule": "Place City Storage and Hardware Store on the right end of the residential street where they do not cause pollution."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "green 'Show me' button on Eva's City Storage prompt",
+            "briefing": "open the Services -> Government menu."
+        },
+        {
+            "action": "drag",
+            "who": "City Storage card",
+            "briefing": "drag City Storage onto the upper-right side of the main road and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "Commercial Buildings icon on the right menu",
+            "briefing": "open the commercial catalog."
+        },
+        {
+            "action": "drag",
+            "who": "Hardware Store card (2,500 Simoleons)",
+            "briefing": "drag the Hardware Store onto the road directly above City Storage and click the green checkmark."
+        },
+        {
+            "action": "click",
+            "who": "Residential Buildings icon on the right menu",
+            "briefing": "drag the available Residential Zone onto the right end of the residential road and click the green checkmark."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

@@ -1,0 +1,51 @@
+{
+    "task_name": "Build Small Factory and Produce Metal",
+    "timestamp_range": "02:42 - 03:08",
+    "when_to_do_it": {
+        "trigger_condition": "When the Industrial Buildings icon shows a '1' badge and raw Metal is needed for residential upgrades and commercial crafting.",
+        "strategic_reasoning": "Small Factories produce free raw materials (Metal, Wood) that form the base of the entire city economy.",
+        "preconditions": [
+            "Industrial Buildings unlocked",
+            "Road space available"
+        ],
+        "placement_rule": "Place next to the Coal Power Plant on the industrial end of the road, away from residential homes to minimize pollution overlap."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Industrial Buildings icon on the right menu",
+            "briefing": "open the factory construction menu."
+        },
+        {
+            "action": "drag",
+            "who": "Small Factory card",
+            "briefing": "drag the Small Factory onto the road to the left of the Coal Power Plant."
+        },
+        {
+            "action": "click",
+            "who": "green checkmark",
+            "briefing": "confirm placement of the Small Factory."
+        },
+        {
+            "action": "click",
+            "who": "Small Factory building",
+            "briefing": "open the factory production slots."
+        },
+        {
+            "action": "drag",
+            "who": "Metal icon",
+            "briefing": "drag Metal onto the factory twice to fill both production slots."
+        },
+        {
+            "action": "wait",
+            "who": "Metal production timer",
+            "briefing": "wait a few seconds for the tutorial Metal production to finish."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal icons above the Small Factory",
+            "briefing": "collect the forged Metal into storage."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

@@ -1,0 +1,289 @@
+{
+    "runs": [
+        {
+            "timestamp": "2026-10-25T13:36:56",
+            "agent_type": "learning_from_long_videos",
+            "mode": "single_pass",
+            "model": "gemini-4-argon",
+            "thinking_level": "high",
+            "source_url": "https://youtu.be/oEF69i-FkdA?si=DqVKZqddTSre9tCq",
+            "video_file": "oEF69i-FkdA_480p.mp4",
+            "video_duration_minutes": 44.49,
+            "video_size_mb": 147.99,
+            "precounted_single_pass_tokens": 201094,
+            "tasks_extracted_count": 40,
+            "tasks_saved": [
+                {
+                    "task_name": "Build Initial Road Connection to Highway",
+                    "file": "learning_from_long_videos/knowledge/Build_Initial_Road_Connection_to_Highway.json",
+                    "step_count": 2,
+                    "timestamp_range": "00:08 - 00:19"
+                },
+                {
+                    "task_name": "Place and Construct First Residential Zone",
+                    "file": "learning_from_long_videos/knowledge/Place_and_Construct_First_Residential_Zone.json",
+                    "step_count": 5,
+                    "timestamp_range": "00:28 - 00:54"
+                },
+                {
+                    "task_name": "Build Building Supplies Store and Produce Nails",
+                    "file": "learning_from_long_videos/knowledge/Build_Building_Supplies_Store_and_Produce_Nails.json",
+                    "step_count": 7,
+                    "timestamp_range": "00:59 - 01:25"
+                },
+                {
+                    "task_name": "Place and Construct Second Residential Zone Using Nails",
+                    "file": "learning_from_long_videos/knowledge/Place_and_Construct_Second_Residential_Zone_Using_Nails.json",
+                    "step_count": 5,
+                    "timestamp_range": "01:28 - 02:08"
+                },
+                {
+                    "task_name": "Build Coal Power Plant to Resolve Power Shortage",
+                    "file": "learning_from_long_videos/knowledge/Build_Coal_Power_Plant_to_Resolve_Power_Shortage.json",
+                    "step_count": 4,
+                    "timestamp_range": "02:15 - 02:32"
+                },
+                {
+                    "task_name": "Build Small Factory and Produce Metal",
+                    "file": "learning_from_long_videos/knowledge/Build_Small_Factory_and_Produce_Metal.json",
+                    "step_count": 7,
+                    "timestamp_range": "02:42 - 03:08"
+                },
+                {
+                    "task_name": "Upgrade First Residential Building",
+                    "file": "learning_from_long_videos/knowledge/Upgrade_First_Residential_Building.json",
+                    "step_count": 2,
+                    "timestamp_range": "03:09 - 03:30"
+                },
+                {
+                    "task_name": "Build Basic Water Tower to Resolve Water Shortage",
+                    "file": "learning_from_long_videos/knowledge/Build_Basic_Water_Tower_to_Resolve_Water_Shortage.json",
+                    "step_count": 4,
+                    "timestamp_range": "03:34 - 03:52"
+                },
+                {
+                    "task_name": "Visit Neighbor Daniel's City and Buy Materials from Trade Depot",
+                    "file": "learning_from_long_videos/knowledge/Visit_Neighbor_Daniels_City_and_Buy_Materials_from_Trade_Depot.json",
+                    "step_count": 6,
+                    "timestamp_range": "03:58 - 04:39"
+                },
+                {
+                    "task_name": "Name City and Construct Town Hall",
+                    "file": "learning_from_long_videos/knowledge/Name_City_and_Construct_Town_Hall.json",
+                    "step_count": 6,
+                    "timestamp_range": "04:41 - 05:03"
+                },
+                {
+                    "task_name": "Upgrade Residential Building and Inspect City Journal Objectives",
+                    "file": "learning_from_long_videos/knowledge/Upgrade_Residential_Building_and_Inspect_City_Journal_Objectives.json",
+                    "step_count": 7,
+                    "timestamp_range": "05:07 - 05:36"
+                },
+                {
+                    "task_name": "Zone and Construct Three Residential Zones to Reach Level 2",
+                    "file": "learning_from_long_videos/knowledge/Zone_and_Construct_Three_Residential_Zones_to_Reach_Level_2.json",
+                    "step_count": 10,
+                    "timestamp_range": "05:44 - 06:30"
+                },
+                {
+                    "task_name": "Inspect 'Growing City' Journal and Build Multi-Block Road Grid",
+                    "file": "learning_from_long_videos/knowledge/Inspect_Growing_City_Journal_and_Build_Multi-Block_Road_Grid.json",
+                    "step_count": 5,
+                    "timestamp_range": "06:44 - 09:02"
+                },
+                {
+                    "task_name": "Collect Produced Materials, Upgrade Homes, and Place Two Residential Zones",
+                    "file": "learning_from_long_videos/knowledge/Collect_Produced_Materials_Upgrade_Homes_and_Place_Two_Residential_Zones.json",
+                    "step_count": 9,
+                    "timestamp_range": "09:03 - 10:15"
+                },
+                {
+                    "task_name": "Build Two Additional Small Factories on Distant Industrial Road and Produce Wood/Metal",
+                    "file": "learning_from_long_videos/knowledge/Build_Two_Additional_Small_Factories_on_Distant_Industrial_Road_and_Produce_WoodMetal.json",
+                    "step_count": 7,
+                    "timestamp_range": "10:18 - 11:18"
+                },
+                {
+                    "task_name": "Relocate Polluting Coal Power Plant Away from Residential Neighborhood",
+                    "file": "learning_from_long_videos/knowledge/Relocate_Polluting_Coal_Power_Plant_Away_from_Residential_Neighborhood.json",
+                    "step_count": 4,
+                    "timestamp_range": "11:40 - 12:08"
+                },
+                {
+                    "task_name": "Upgrade Residential Buildings to Reach City Level 3",
+                    "file": "learning_from_long_videos/knowledge/Upgrade_Residential_Buildings_to_Reach_City_Level_3.json",
+                    "step_count": 5,
+                    "timestamp_range": "12:14 - 13:42"
+                },
+                {
+                    "task_name": "Build Small Fountain Park Next to Residential Cluster for Population Boost",
+                    "file": "learning_from_long_videos/knowledge/Build_Small_Fountain_Park_Next_to_Residential_Cluster_for_Population_Boost.json",
+                    "step_count": 3,
+                    "timestamp_range": "13:44 - 14:33"
+                },
+                {
+                    "task_name": "Relocate Town Hall and Water Tower to Free Residential Frontage and Upgrade Homes",
+                    "file": "learning_from_long_videos/knowledge/Relocate_Town_Hall_and_Water_Tower_to_Free_Residential_Frontage_and_Upgrade_Homes.json",
+                    "step_count": 7,
+                    "timestamp_range": "14:49 - 16:05"
+                },
+                {
+                    "task_name": "Extend Lower Road Grid, Claim 'My Sweet Town' Journal Reward, and Queue Metal",
+                    "file": "learning_from_long_videos/knowledge/Extend_Lower_Road_Grid_Claim_My_Sweet_Town_Journal_Reward_and_Queue_Metal.json",
+                    "step_count": 7,
+                    "timestamp_range": "16:47 - 17:21"
+                },
+                {
+                    "task_name": "Zone Two Residential Areas, Build Two Small Factories, Relocate Old Factory, and Claim 'Growing City' Reward",
+                    "file": "learning_from_long_videos/knowledge/Zone_Two_Residential_Areas_Build_Two_Small_Factories_Relocate_Old_Factory_and_Claim_Growing_City_Reward.json",
+                    "step_count": 11,
+                    "timestamp_range": "17:37 - 18:42"
+                },
+                {
+                    "task_name": "Collect Nails, Start Planks Production, Upgrade Three Homes, and Zone Two More Residential Areas",
+                    "file": "learning_from_long_videos/knowledge/Collect_Nails_Start_Planks_Production_Upgrade_Three_Homes_and_Zone_Two_More_Residential_Areas.json",
+                    "step_count": 6,
+                    "timestamp_range": "18:43 - 19:45"
+                },
+                {
+                    "task_name": "Build Fifth Small Factory, Queue Metal, and Reposition Park for Higher Population Boost",
+                    "file": "learning_from_long_videos/knowledge/Build_Fifth_Small_Factory_Queue_Metal_and_Reposition_Park_for_Higher_Population_Boost.json",
+                    "step_count": 4,
+                    "timestamp_range": "19:54 - 20:29"
+                },
+                {
+                    "task_name": "Check 'Busy Manufacturing' Journal, Collect & Queue Factory Materials, and Upgrade Two Homes",
+                    "file": "learning_from_long_videos/knowledge/Check_Busy_Manufacturing_Journal_Collect_Queue_Factory_Materials_and_Upgrade_Two_Homes.json",
+                    "step_count": 4,
+                    "timestamp_range": "21:11 - 22:25"
+                },
+                {
+                    "task_name": "Cluster High-Rise Residential Buildings Around Park and Place New Residential Zone",
+                    "file": "learning_from_long_videos/knowledge/Cluster_High-Rise_Residential_Buildings_Around_Park_and_Place_New_Residential_Zone.json",
+                    "step_count": 5,
+                    "timestamp_range": "22:52 - 23:35"
+                },
+                {
+                    "task_name": "Resolve Full Material Storage by Expanding Shop Queue and Accepting Advisor Trade Offer",
+                    "file": "learning_from_long_videos/knowledge/Resolve_Full_Material_Storage_by_Expanding_Shop_Queue_and_Accepting_Advisor_Trade_Offer.json",
+                    "step_count": 4,
+                    "timestamp_range": "24:26 - 26:10"
+                },
+                {
+                    "task_name": "Collect Wood, Upgrade Three Residential Buildings to Reach Level 4, and Claim Two Journal Chests",
+                    "file": "learning_from_long_videos/knowledge/Collect_Wood_Upgrade_Three_Residential_Buildings_to_Reach_Level_4_and_Claim_Two_Journal_Chests.json",
+                    "step_count": 7,
+                    "timestamp_range": "26:28 - 27:32"
+                },
+                {
+                    "task_name": "Build City Storage, Construct Hardware Store, and Place New Residential Zone",
+                    "file": "learning_from_long_videos/knowledge/Build_City_Storage_Construct_Hardware_Store_and_Place_New_Residential_Zone.json",
+                    "step_count": 5,
+                    "timestamp_range": "28:02 - 28:50"
+                },
+                {
+                    "task_name": "Collect Factory Materials, Upgrade Two Residential Zones, and Build Second Water Tower",
+                    "file": "learning_from_long_videos/knowledge/Collect_Factory_Materials_Upgrade_Two_Residential_Zones_and_Build_Second_Water_Tower.json",
+                    "step_count": 4,
+                    "timestamp_range": "29:04 - 29:49"
+                },
+                {
+                    "task_name": "Place New Residential Zone, Collect Nails, and Queue Factory Production",
+                    "file": "learning_from_long_videos/knowledge/Place_New_Residential_Zone_Collect_Nails_and_Queue_Factory_Production.json",
+                    "step_count": 4,
+                    "timestamp_range": "29:58 - 30:25"
+                },
+                {
+                    "task_name": "Fulfill Advisor Metal Offer, Produce & Speed Up Nails, and Upgrade Two Residential Buildings",
+                    "file": "learning_from_long_videos/knowledge/Fulfill_Advisor_Metal_Offer_Produce_Speed_Up_Nails_and_Upgrade_Two_Residential_Buildings.json",
+                    "step_count": 5,
+                    "timestamp_range": "31:27 - 32:25"
+                },
+                {
+                    "task_name": "Reposition Small Fountain Park Behind Skyscraper Cluster for Maximum Population Boost",
+                    "file": "learning_from_long_videos/knowledge/Reposition_Small_Fountain_Park_Behind_Skyscraper_Cluster_for_Maximum_Population_Boost.json",
+                    "step_count": 3,
+                    "timestamp_range": "33:21 - 33:48"
+                },
+                {
+                    "task_name": "Collect Wood, Queue Metal in Factories, Craft Nails & Planks, and Upgrade Two Homes",
+                    "file": "learning_from_long_videos/knowledge/Collect_Wood_Queue_Metal_in_Factories_Craft_Nails_Planks_and_Upgrade_Two_Homes.json",
+                    "step_count": 7,
+                    "timestamp_range": "34:02 - 35:05"
+                },
+                {
+                    "task_name": "Speed Up Planks, Collect Metal, Upgrade Residential Zone, and Queue Factory Materials",
+                    "file": "learning_from_long_videos/knowledge/Speed_Up_Planks_Collect_Metal_Upgrade_Residential_Zone_and_Queue_Factory_Materials.json",
+                    "step_count": 4,
+                    "timestamp_range": "35:37 - 36:23"
+                },
+                {
+                    "task_name": "Collect Special Item from Opinion Bubble and Upgrade City Storage Capacity",
+                    "file": "learning_from_long_videos/knowledge/Collect_Special_Item_from_Opinion_Bubble_and_Upgrade_City_Storage_Capacity.json",
+                    "step_count": 6,
+                    "timestamp_range": "36:34 - 37:31"
+                },
+                {
+                    "task_name": "Collect Metal, Fulfill Advisor Offer, Pop Opinion Bubbles, and Queue Factories",
+                    "file": "learning_from_long_videos/knowledge/Collect_Metal_Fulfill_Advisor_Offer_Pop_Opinion_Bubbles_and_Queue_Factories.json",
+                    "step_count": 5,
+                    "timestamp_range": "37:35 - 38:15"
+                },
+                {
+                    "task_name": "Build Reflecting Pool Park Next to Skyscraper Cluster for Additional Population Boost",
+                    "file": "learning_from_long_videos/knowledge/Build_Reflecting_Pool_Park_Next_to_Skyscraper_Cluster_for_Additional_Population_Boost.json",
+                    "step_count": 3,
+                    "timestamp_range": "38:35 - 38:50"
+                },
+                {
+                    "task_name": "Collect Factory Materials, Start Hammer Production in Hardware Store, and Re-queue Wood",
+                    "file": "learning_from_long_videos/knowledge/Collect_Factory_Materials_Start_Hammer_Production_in_Hardware_Store_and_Re-queue_Wood.json",
+                    "step_count": 4,
+                    "timestamp_range": "39:00 - 39:30"
+                },
+                {
+                    "task_name": "Collect Factory Output, Re-queue Wood, and Visit Daniel's City While Waiting on Timers",
+                    "file": "learning_from_long_videos/knowledge/Collect_Factory_Output_Re-queue_Wood_and_Visit_Daniels_City_While_Waiting_on_Timers.json",
+                    "step_count": 4,
+                    "timestamp_range": "41:20 - 43:55"
+                },
+                {
+                    "task_name": "Fulfill Advisor Wood Offer, Collect & Re-queue Wood in All Factories, and Decline Nails Offer",
+                    "file": "learning_from_long_videos/knowledge/Fulfill_Advisor_Wood_Offer_Collect_Re-queue_Wood_in_All_Factories_and_Decline_Nails_Offer.json",
+                    "step_count": 6,
+                    "timestamp_range": "43:55 - 44:30"
+                }
+            ],
+            "interaction_ids": [
+                "v1_ChdHbWZlYXFfZUNwT3Q5TW9QbmVMa2tBNBIXR21mZWFxX2VDcE90OU1vUG5lTGtrQTQ"
+            ],
+            "tokens": {
+                "total_input_tokens": 195834,
+                "input_tokens_by_modality": {
+                    "text": 6264,
+                    "video": 189570
+                },
+                "total_thought_tokens": 5726,
+                "total_output_tokens": 18974,
+                "total_tokens": 220534
+            },
+            "timing_seconds": {
+                "youtube_download_seconds": 68.73,
+                "upload_and_processing_seconds": 61.57,
+                "token_counting_seconds": 1.99,
+                "model_inference_seconds": 333.95,
+                "total_api_seconds": 397.51,
+                "total_elapsed_seconds": 885.55
+            }
+        }
+    ],
+    "summary": {
+        "total_runs": 1,
+        "total_tasks_extracted": 40,
+        "total_input_tokens": 195834,
+        "total_thought_tokens": 5726,
+        "total_output_tokens": 18974,
+        "total_tokens": 220534,
+        "total_api_seconds": 397.51
+    }
+}

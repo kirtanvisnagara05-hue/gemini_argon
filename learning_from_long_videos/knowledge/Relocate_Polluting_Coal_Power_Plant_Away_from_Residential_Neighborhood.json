@@ -1,0 +1,36 @@
+{
+    "task_name": "Relocate Polluting Coal Power Plant Away from Residential Neighborhood",
+    "timestamp_range": "11:40 - 12:08",
+    "when_to_do_it": {
+        "trigger_condition": "When residential homes near the Coal Power Plant show yellow unhappiness faces and red complaint bubbles ('That power plant is loud and dirty!'), dragging city happiness down to 82%.",
+        "strategic_reasoning": "Moving the Coal Power Plant to the far northern industrial road removes its pollution radius from the homes, restoring citizen happiness and fulfilling the 'Happy City' journal requirement.",
+        "preconditions": [
+            "Distant road connected to the city grid",
+            "Free space next to the new factories on the northern road"
+        ],
+        "placement_rule": "Tap and hold the Coal Power Plant and drag it next to the factories on the northernmost road so its brown pollution zone does not touch any residential buildings."
+    },
+    "steps": [
+        {
+            "action": "drag",
+            "who": "Coal Power Plant (tap and hold to pick up)",
+            "briefing": "drag the Coal Power Plant from the residential street to the far northern road beside the two new Small Factories."
+        },
+        {
+            "action": "click",
+            "who": "green checkmark",
+            "briefing": "confirm the new location of the Coal Power Plant."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal icons on the two northern Small Factories",
+            "briefing": "collect the finished Metal."
+        },
+        {
+            "action": "click",
+            "who": "northern Small Factories",
+            "briefing": "drag Metal into all empty production slots."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

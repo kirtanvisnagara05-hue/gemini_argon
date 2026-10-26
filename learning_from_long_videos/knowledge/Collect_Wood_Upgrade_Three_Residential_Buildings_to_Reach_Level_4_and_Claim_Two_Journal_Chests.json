@@ -1,0 +1,51 @@
+{
+    "task_name": "Collect Wood, Upgrade Three Residential Buildings to Reach Level 4, and Claim Two Journal Chests",
+    "timestamp_range": "26:28 - 27:32",
+    "when_to_do_it": {
+        "trigger_condition": "Immediately after freeing City Storage space when Wood and Planks/Nails can be collected and three residential buildings are ready to upgrade.",
+        "strategic_reasoning": "Upgrading these three residential buildings pushes the city to Level 4 (unlocking Hammers, the Hardware Store, and City Storage) and completes both the 'Happy City' and 'Busy Manufacturing' City Journal chapters for 1,300 total bonus Simoleons.",
+        "preconditions": [
+            "Free space in City Storage (15/30)",
+            "Finished Wood on factory and Planks on Building Supplies Store"
+        ],
+        "placement_rule": "Collect the finished materials, upgrade the three ready homes, and claim both journal reward chests."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "5th Small Factory",
+            "briefing": "collect the finished Wood logs."
+        },
+        {
+            "action": "click",
+            "who": "floating Planks on Building Supplies Store",
+            "briefing": "collect the finished Planks."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat with green checkmark on the central apartment building",
+            "briefing": "drag Planks (1/1) onto the building to upgrade it and reach City Level 4."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hats on two lower residential zones",
+            "briefing": "drag Metal (13/6) onto the first zone and Metal (7/1) onto the second zone to upgrade both."
+        },
+        {
+            "action": "click",
+            "who": "floating Metal on the northern Small Factories",
+            "briefing": "collect finished Metal and re-queue Metal in the factories."
+        },
+        {
+            "action": "click",
+            "who": "City Journal icon / 'Complete!' banner",
+            "briefing": "open the 'Happy City' journal, click 'Claim', and open the chest for 700 Simoleons."
+        },
+        {
+            "action": "click",
+            "who": "'Complete!' banner for 'Busy Manufacturing'",
+            "briefing": "click 'Claim' and open the second chest for 600 Simoleons."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

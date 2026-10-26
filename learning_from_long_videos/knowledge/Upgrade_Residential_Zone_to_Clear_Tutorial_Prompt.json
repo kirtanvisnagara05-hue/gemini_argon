@@ -1,0 +1,21 @@
+{
+    "task_name": "Upgrade Residential Zone to Clear Tutorial Prompt",
+    "steps": [
+        {
+            "action": "click",
+            "who": "floating white thought bubble with yellow hard hat and green checkmark above the residential home",
+            "briefing": "Click the floating white thought bubble containing the yellow hard hat and green checkmark above the residential home to open the building upgrade view."
+        },
+        {
+            "action": "drag",
+            "who": "required building material icon inside the floating callout banner on the left onto the residential zone in the center",
+            "briefing": "Drag the building material icon from the floating material banner on the left (pointed to by the yellow arrow) onto the residential building zone in the center of the screen to upgrade the home."
+        },
+        {
+            "action": "wait",
+            "who": "residential upgrade construction animation and post-upgrade tutorial transition (5 seconds)",
+            "briefing": "Wait 5 seconds for the home upgrade construction animation to finish and the tutorial prompt to clear."
+        }
+    ],
+    "when_to_do_it": {}
+}

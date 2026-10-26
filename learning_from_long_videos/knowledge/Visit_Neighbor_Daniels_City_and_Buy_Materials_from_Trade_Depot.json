@@ -1,0 +1,46 @@
+{
+    "task_name": "Visit Neighbor Daniel's City and Buy Materials from Trade Depot",
+    "timestamp_range": "03:58 - 04:39",
+    "when_to_do_it": {
+        "trigger_condition": "When Neighbor Daniel invites you to visit his city or daily when you want to buy discounted materials from his Trade Depot.",
+        "strategic_reasoning": "Daniel's Trade Depot sells discounted raw and crafted materials every day, saving factory/shop production time and accelerating early residential upgrades.",
+        "preconditions": [
+            "Friends menu unlocked",
+            "Sufficient Simoleons (87 Simoleons total) and free City Storage space"
+        ],
+        "placement_rule": "Locate the Trade Depot with the floating blue crate icon in Daniel's City."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "green 'Show me' button on Daniel's prompt",
+            "briefing": "open the Friends bar at the bottom-left."
+        },
+        {
+            "action": "click",
+            "who": "Daniel's City portrait card",
+            "briefing": "travel to Neighbor Daniel's City."
+        },
+        {
+            "action": "find",
+            "who": "Trade Depot building with floating blue crate icon",
+            "briefing": "pan across Daniel's City to locate his Trade Depot near the Eiffel Tower."
+        },
+        {
+            "action": "click",
+            "who": "Trade Depot building",
+            "briefing": "open Daniel's Trade Depot inventory."
+        },
+        {
+            "action": "click",
+            "who": "Metal crate (1x for 7 Simoleons) and Nails crate (1x for 80 Simoleons)",
+            "briefing": "purchase both discounted material lots."
+        },
+        {
+            "action": "click",
+            "who": "blue Home icon in the top-left corner",
+            "briefing": "return to your home city."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

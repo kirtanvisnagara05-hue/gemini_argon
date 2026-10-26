@@ -1,0 +1,66 @@
+{
+    "task_name": "Zone and Construct Three Residential Zones to Reach Level 2",
+    "timestamp_range": "05:44 - 06:30",
+    "when_to_do_it": {
+        "trigger_condition": "When the 'My Sweet Town' City Journal requires creating 3 Residential Zones and the Residential icon shows a '3' badge.",
+        "strategic_reasoning": "Placing all 3 available Residential Zones immediately fulfills the journal objective, and constructing two of them with stored Metal pushes XP over the threshold to reach City Level 2 (unlocking Wood production and +1 Factory).",
+        "preconditions": [
+            "3 Residential Zone slots available",
+            "Stored Metal available for initial construction"
+        ],
+        "placement_rule": "Place the 3 Residential Zones side-by-side along the existing road opposite the first homes."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "Residential Buildings icon on the right menu",
+            "briefing": "open the residential zoning menu."
+        },
+        {
+            "action": "drag",
+            "who": "Residential Zone card (3 times sequentially)",
+            "briefing": "place three new Residential Zones in a row along the lower side of the road, clicking the green checkmark after each placement."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the rightmost new Residential Zone",
+            "briefing": "open its construction requirements."
+        },
+        {
+            "action": "drag",
+            "who": "Metal icon (7/1)",
+            "briefing": "drag Metal onto the zone to construct it and level up to City Level 2."
+        },
+        {
+            "action": "click",
+            "who": "yellow hard hat on the middle new Residential Zone",
+            "briefing": "open its construction requirements."
+        },
+        {
+            "action": "drag",
+            "who": "Metal icon (6/2)",
+            "briefing": "drag Metal onto the middle zone to construct it."
+        },
+        {
+            "action": "click",
+            "who": "Small Factory building",
+            "briefing": "open the factory production menu."
+        },
+        {
+            "action": "drag",
+            "who": "Metal icon",
+            "briefing": "drag Metal into both factory slots."
+        },
+        {
+            "action": "click",
+            "who": "Building Supplies Store building",
+            "briefing": "open the commercial store menu."
+        },
+        {
+            "action": "drag",
+            "who": "Nails icon",
+            "briefing": "drag Nails into the production slot."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}

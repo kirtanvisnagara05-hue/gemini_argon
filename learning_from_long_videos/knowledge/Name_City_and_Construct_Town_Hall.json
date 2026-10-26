@@ -1,0 +1,46 @@
+{
+    "task_name": "Name City and Construct Town Hall",
+    "timestamp_range": "04:41 - 05:03",
+    "when_to_do_it": {
+        "trigger_condition": "Upon returning from Daniel's City when Advisor Eva prompts to name the city and construct the first Government building.",
+        "strategic_reasoning": "Naming the city personalizes it for trading, and building the Town Hall unlocks the City Journal, which provides structured milestone tasks with lucrative Simoleon chest rewards.",
+        "preconditions": [
+            "100 Simoleons available",
+            "Government service category unlocked"
+        ],
+        "placement_rule": "Place Town Hall along an active road; it has no negative pollution radius."
+    },
+    "steps": [
+        {
+            "action": "click",
+            "who": "city name input field",
+            "briefing": "type the city name 'Kamal Paradise'."
+        },
+        {
+            "action": "click",
+            "who": "green 'Ok' button",
+            "briefing": "confirm the new city name."
+        },
+        {
+            "action": "click",
+            "who": "green 'Show me' button on Eva's Government prompt",
+            "briefing": "open the Services menu highlighting Government."
+        },
+        {
+            "action": "click",
+            "who": "Government building icon",
+            "briefing": "open the Government buildings catalog."
+        },
+        {
+            "action": "drag",
+            "who": "Town Hall card",
+            "briefing": "drag the Town Hall onto the road opposite the residential homes."
+        },
+        {
+            "action": "click",
+            "who": "green checkmark",
+            "briefing": "confirm placement of the Town Hall."
+        }
+    ],
+    "source_video": "oEF69i-FkdA_480p.mp4"
+}
